@@ -1,10 +1,11 @@
 #ifndef STRUCT_INFO
 #define STRUCT_INFO
+#define MAX_NUM 101
 
 typedef struct {
-	char name[21];
-	char phone_number[16];
-	char birth[9];
+	char *name;
+	char *phone_number;
+	char *birth;
 }Info;
 
 #endif
